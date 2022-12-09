@@ -6,7 +6,7 @@
 export const processWeather = (data) => {
     const name = data.name.toUpperCase()
     const country = data.sys.country
-    const conditions = data.weather[0].main.toUpperCase()
+    const conditions = data.weather[0].description.toUpperCase()
     const temperature = Math.round(data.main.temp)
     const feelsLike = Math.round(data.main.feels_like)
     const wind = Math.round(data.wind.speed * 3.6)
