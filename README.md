@@ -1,2 +1,2 @@
 # weather-app
-app to see weather forecast around the world
+app to see current weather conditions around the world
