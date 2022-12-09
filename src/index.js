@@ -15,17 +15,6 @@ async function getWeather() {
 }
 
 btn.addEventListener('click', () => {
-
-    // fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${input.value}&appid=3df8a87758f9170b7460a19f89b1958b`, { mode: 'cors' })
-    //     .then(function (response) {
-    //         return response.json();
-    //     })
-    //     .then(function (response) {
-    //         console.log(response)
-    //     })
-    //     .catch((error) => {
-    //         console.log("ERROR!!!", error)
-    //     })
     clearDisplay()
     getWeather()
     input.value = ''
